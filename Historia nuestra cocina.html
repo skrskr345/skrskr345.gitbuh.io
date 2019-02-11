@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="imagenes/restmar.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+	 
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center"><strong>Nuestra historia</strong></h1><br>
+      <h5 class="w3-center"><em>Since 1893</em></h5>
+      <p class="w3-large">Ya desde finales del siglo XVIII, mi bisabuelo, y el de mis hermanos ya fundaba lo que hoy en día es nuestra vida, un pequeño restaurante en Galicia, bastante cerca del mar, donde la especialidad era y es el <em>pulpo a la gallega</em> con nuestra salsa secreta. Con el paso de los años el negocio fue creciendo, en 1998 mi padre heredo el negocio pero por culpa del cáncer murió y ahora estamos yo y mis hermanos a cargo de él.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Nuestro Menu</h1><br>
+      <h4> </h4>
+      <p class="w3-text-grey"><em><strong>Primer plato</strong></em></p><br>
+    
+      <h4><strong>Merluza con patatas fritas
+	  <p><strong>Emperador con ajo</strong></p></strong>
+	  <p><strong>Calamares a la romana</strong></p>
+	  <strong><p>Sopa de rape</strong></p></h4>
+      <p class="w3-text-grey"></p><br>
+    
+      
+      
+	  <p class="w3-text-grey"><em><strong>Segundo plato</strong></em></p><br>
+   
+      <h4><strong>Costillar de cerdo con patatas cocidas</strong>
+	  <strong><p>Secreto ibérico con una ensalada</strong></p>
+	  <strong><p>Ternera de buey con patas fritas</strong></p>
+	  <strong><p>Rabo de toro con patatas a lo pobre</strong></p></h4>
+      <p class="w3-text-grey">Postre o café, opcional</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="imagenes/menu.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1><strong>¿Cómo contactar con nosotros?</strong></h1><br>
+    <p>Ofrecemos un servicio por la mañana desde las 8:00 hasta las 16:00 de la tarde, volvemos abrir por la noche de las 8:00 hasta las 12:00</p>
+    <p class="w3-text-blue-grey w3-large"><b>C/Alcántara de la marina Nª12, A Coruña, Galicia, España.</b></p>
+    <p>Tambien puedes contactar con nosotros por el siguiente número 244567610 o por email Berniros03@gmail.com, o incluso mandando un mensaje de texto aquí: Lacocinagallega.com</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Instagram:@Elcocinero78_" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="Twiter:@Elcocinero78_" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="5/02/2019" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="El mejor restaurante en Galicia"  name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">No dude en contactar con nosotros</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p> <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"> <img src="imagenes/redessocial.jpg"> </a></p>
+</footer>
+
+</body>
+</html>
